@@ -1,0 +1,5 @@
+<ul class="list-group hover">
+  <li class="list-group-item" *ngFor="let task of tasklist" (click)="onItemClick(task)">
+      Task Name : {{task.name}}<br>Descripion : {{task.desc}}
+  </li>
+</ul>
